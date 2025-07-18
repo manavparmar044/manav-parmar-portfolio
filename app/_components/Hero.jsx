@@ -59,23 +59,26 @@ export default function Hero() {
           {/* Main hero section content */}
           <main className="flex flex-col items-center text-center pt-20 sm:pt-28 lg:pt-36">
             {/* Profile image and verified badge */}
+
             <div className="relative mb-6">
-              <img
-                src="https://placehold.co/96x96/E2E8F0/1A202C?text=MMP"
-                alt="Profile"
-                className="w-24 h-24 rounded-full border-2 border-gray-700 object-cover"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "https://placehold.co/96x96/333/FFF?text=404";
-                }}
-              />
-              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 px-3 py-1 bg-white rounded-full shadow-lg">
-                <ShieldCheck className="w-4 h-4 text-green-500" />
-                <span className="text-xs font-semibold text-gray-800">
-                  Verified Expert
-                </span>
-              </div>
-            </div>
+  <img
+    src="/images/manav.jpg"
+    alt="Profile"
+    className="w-24 h-24 rounded-full border-2 border-gray-700 object-cover"
+    onError={(e) => {
+      e.target.onerror = null;
+      e.target.src = "https://placehold.co/96x96/333/FFF?text=404";
+    }}
+  />
+  <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-1.5 px-4 py-1.5 rounded-full
+                  bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg whitespace-nowrap">
+    <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-ping" />
+    <span className="w-2.5 h-2.5 bg-green-500 rounded-full absolute" />
+    <span className="text-xs font-semibold text-white">Available for work</span>
+  </div>
+</div>
+
+
 
             {/* Main headline */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-tight mt-8">

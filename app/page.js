@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "./_components/Hero";
 
 import Navbar from "./_components/Navbar";
+import About from "./_components/About";
 
 
 
@@ -15,6 +16,8 @@ return (
 <Navbar />
 
 <Hero />
+
+<About />
 
 </main>
 
