@@ -32,8 +32,8 @@ export default function Navbar() {
             <span className="text-white font-bold text-xl">Manav.</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-white">
-            <NavLink href="#work">Work</NavLink>
-            <NavLink href="#experience">Experience</NavLink>
+            <NavLink href="#work">About</NavLink>
+            <NavLink href="#experience">Work</NavLink>
             <NavLink href="#blog">Blog</NavLink>
             <NavLink href="#faq">FAQ</NavLink>
           </nav>
