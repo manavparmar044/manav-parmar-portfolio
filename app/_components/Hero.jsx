@@ -81,7 +81,7 @@ export default function Hero() {
 
 
             {/* Main headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-tight mt-8">
+            <h1 className="font-ranade text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-tight mt-8">
               Web Developer
               <br />
               <span className="text-white/80">And Designer</span>
@@ -106,7 +106,7 @@ export default function Hero() {
         </div>
 
         {/* Icon Scroller */}
-        <footer className="w-full max-w-4xl mx-auto mt-24 sm:mt-24 lg:mt-32 pb-10">
+        <footer className="w-full max-w-4xl mx-auto mt-10 sm:mt-24 lg:mt-16 pb-10">
             <div ref={scrollerRef} className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                 {/* The animate-infinite-scroll class has been removed */}
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8">

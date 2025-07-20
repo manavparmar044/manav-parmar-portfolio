@@ -12,7 +12,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "A sleek portfolio showcasing my work and blog posts using Next.js and Tailwind CSS.",
-      image: "/images/demo.png",
+      image: "/images/demo1.png",
       link: "https://yourportfolio.com",
       github: "https://github.com/username/portfolio",
       tags: ["Next.js", "Tailwind", "TypeScript"],
@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: "E-Commerce Dashboard",
       description: "An admin dashboard for managing products, users, and orders built with React and Firebase.",
-      image: "/images/demo.png",
+      image: "/images/demo2.png",
       link: "https://ecommerce-dashboard.com",
       github: "https://github.com/username/ecommerce-dashboard",
       tags: ["React", "Firebase", "Chart.js"],

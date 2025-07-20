@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        ranade: ['Ranade','sans-serif']
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
