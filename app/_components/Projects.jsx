@@ -19,12 +19,12 @@ export default function Projects() {
       status: "Live"
     },
     {
-      title: "E-Commerce Dashboard",
-      description: "An admin dashboard for managing products, users, and orders built with React and Firebase.",
+      title: "Placement Portal",
+      description: "A student side placement portal built using MERN stack",
       image: "/images/demo2.png",
       link: "https://ecommerce-dashboard.com",
       github: "https://github.com/username/ecommerce-dashboard",
-      tags: ["React", "Firebase", "Chart.js"],
+      tags: ["React", "MongoDB", "Express Js","Node js"],
       status: "Live"
     },
     {
