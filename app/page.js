@@ -5,6 +5,7 @@ import Hero from "./_components/Hero";
 import Navbar from "./_components/Navbar";
 import About from "./_components/About";
 import Projects from "./_components/Projects";
+import Contact from "./_components/Contact";
 
 
 
@@ -21,6 +22,8 @@ return (
 <About />
 
 <Projects />
+
+<Contact />
 
 </main>
 
