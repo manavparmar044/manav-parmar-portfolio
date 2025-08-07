@@ -6,6 +6,7 @@ import Navbar from "./_components/Navbar";
 import About from "./_components/About";
 import Projects from "./_components/Projects";
 import Contact from "./_components/Contact";
+import Experience from "./_components/Experience";
 
 
 
@@ -22,6 +23,8 @@ return (
 <About />
 
 <Projects />
+
+<Experience />
 
 <Contact />
 
