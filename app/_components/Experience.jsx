@@ -84,7 +84,7 @@ export default function Experience() {
       className="relative py-24 px-4 sm:px-6 lg:px-8 bg-black overflow-hidden"
     >
       {/* Blobs */}
-      <div className="absolute top-10 right-10 w-72 h-72 bg-indigo-500/20 rounded-full blur-[100px] animate-pulse-slow"></div>
+      <div className="absolute top-10 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-[100px] animate-pulse-slow"></div>
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-500/15 rounded-full blur-[120px] animate-pulse-slow animation-delay-2000"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
@@ -93,7 +93,7 @@ export default function Experience() {
           <h2 className="font-ranade text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight mb-4">
             Experience
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 to-blue-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-500 mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
             My professional journey and the experiences that shaped my development skills.
           </p>
@@ -105,19 +105,19 @@ export default function Experience() {
             <div key={exp.id} className="group relative">
               {/* Timeline dot and line */}
               {index !== experiences.length - 1 && (
-                <div className="absolute left-6 top-20 w-0.5 h-full bg-gradient-to-b from-indigo-500/40 to-blue-500/40 hidden lg:block"></div>
+                <div className="absolute left-6 top-20 w-0.5 h-full bg-gradient-to-b from-blue-500/40 to-blue-500/40 hidden lg:block"></div>
               )}
-              <div className="absolute left-4 top-8 w-4 h-4 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full border-4 border-black z-10 hidden lg:block group-hover:scale-125 transition-transform duration-300"></div>
+              <div className="absolute left-4 top-8 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-500 rounded-full border-4 border-black z-10 hidden lg:block group-hover:scale-125 transition-transform duration-300"></div>
 
               {/* Experience Card */}
               <div className="lg:ml-16 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 shadow-xl hover:shadow-blue-500/10 transition-all duration-500 hover:scale-[1.02]">
                 {/* Header */}
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
-                    <h3 className="font-ranade text-2xl sm:text-3xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors duration-300">
+                    <h3 className="font-ranade text-2xl sm:text-3xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors duration-300">
                       {exp.role}
                     </h3>
-                    <div className="flex items-center gap-2 text-lg font-semibold text-indigo-400 mb-3">
+                    <div className="flex items-center gap-2 text-lg font-semibold text-blue-400 mb-3">
                       <ExternalLink className="w-5 h-5" />
                       {exp.company}
                     </div>
@@ -128,7 +128,7 @@ export default function Experience() {
                 {/* Duration and Location */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-6">
                   <div className="flex items-center gap-2 text-gray-300">
-                    <Calendar className="w-4 h-4 text-indigo-400" />
+                    <Calendar className="w-4 h-4 text-blue-400" />
                     <span className="font-medium">{exp.duration}</span>
                   </div>
                   <div className="flex items-center gap-2 text-gray-300">
@@ -143,7 +143,7 @@ export default function Experience() {
                   <ul className="space-y-2">
                     {exp.achievements.map((point, idx) => (
                       <li key={idx} className="flex items-start gap-3 text-gray-300">
-                        <div className="w-1.5 h-1.5 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full mt-2.5 flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 bg-gradient-to-r from-blue-500 to-blue-500 rounded-full mt-2.5 flex-shrink-0" />
                         <span>{point}</span>
                       </li>
                     ))}
@@ -166,7 +166,7 @@ export default function Experience() {
                 </div>
 
                 {/* Gradient footer bar */}
-                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500/30 via-blue-500/40 to-indigo-500/30 rounded-b-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500/30 via-blue-500/40 to-blue-500/30 rounded-b-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
             </div>
           ))}
